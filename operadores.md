@@ -128,13 +128,33 @@ ehIgual = 3 === '3';
 document.write(ehIgual);
 ```
 
-## Maior que 
+## Maior que
+
+```javascript
+var2 > var1
+"12" > 2
+```
 
 ## Maior que ou igual
 
+```javascript
+var2 >= var1
+var1 >= 3
+```
+
 ## Menor que
 
+```javascript
+var1 < var2
+"12" < "2"
+```
+
 ## Menor que ou igual
+
+```javascript
+var1 <= var2
+var2 <= 5
+```
 
 
 # Exercícios
