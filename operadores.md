@@ -87,7 +87,7 @@ Se `x` é 3, então `--x` define `x` como 2 e retorna 2, enquanto `x--` retorna 
 
 # Operadores de Comparação
 
-## Igual
+## Igual `==`
 
 Retorna verdadeiro caso os **operandos sejam iguais**.
 
@@ -104,7 +104,7 @@ ehIgual = 3 == '3';
 document.write(ehIgual);
 ```
 
-## Não igual
+## Não igual `!=`
 
 Retorna verdadeiro caso os **operandos não sejam iguais**.
 
@@ -118,7 +118,7 @@ ehIgual = 1 != "3";
 document.write(ehIgual);
 ```
 
-## Estritamente Igual
+## Estritamente Igual `===`
 
 Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo.
 
@@ -127,47 +127,62 @@ var ehIgual = 3 === 3;
 document.write(ehIgual);
 ```
 
-## Estritamente não Igual
+## Estritamente não Igual `!==`
 
 ```javascript
 var ehIgual;
 
-ehIgual = 3 === 3;
+ehIgual = 3 !== 3;
 document.write(ehIgual);
 
-ehIgual = "3" === 3;
+ehIgual = "3" !== 3;
 document.write(ehIgual);
 
-ehIgual = 3 === '3';
+ehIgual = 3 !== '3';
 document.write(ehIgual);
 ```
 
-## Maior que
+## Maior que `>`
 
 ```javascript
-var2 > var1
-"12" > 2
+var var1 = 2;
+var var2 = 3;
+
+var ehMaior = var2 > var1;
+document.write(ehMaior);
 ```
 
-## Maior que ou igual
+## Maior que ou igual `>=`
 
 ```javascript
-var2 >= var1
-var1 >= 3
+var var1 = 2;
+var var2 = 3;
+
+var ehMaiorIgual = var1 >= var2;
+
+document.write(ehMaiorIgual);
 ```
 
-## Menor que
+## Menor que `<`
 
 ```javascript
-var1 < var2
-"12" < "2"
+var var1 = 2;
+var var2 = 3;
+
+var ehMenor = var1 <= var2;
+
+document.write(ehMaiorIgual);
 ```
 
-## Menor que ou igual
+## Menor que ou igual `<=`
 
 ```javascript
-var1 <= var2
-var2 <= 5
+var var1 = 2;
+var var2 = 3;
+
+var ehMenorIgual = var1 <= var2;
+
+document.write(ehMenorIgual);
 ```
 
 
