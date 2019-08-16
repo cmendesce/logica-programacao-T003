@@ -120,7 +120,7 @@ Adiciona um ao seu operando. Se usado como operador prefixado (`++x`), retorna o
 
 Se `x` é 3, então `++x` define `x` como 4 e retorna 4, enquanto `x++` retorna 3 e, somente então, define `x` como 4.
 
-## Decremento
+## Decremento `--`
 
 Subtrai um de seu operando. O valor de retorno é análogo àquele do operador de incremento.
 
