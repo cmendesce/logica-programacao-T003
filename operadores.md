@@ -3,77 +3,76 @@
 
 Esta seção descreve os operadores e contém informações sobre precedência de operadores.
 
-## Atribuição
+## Atribuição `=`
 
 ```javascript
 x = y;
 ```
 
-## Adição
+## Adição `+`
 
 ```javascript
-x += y;
-
-// Mesmo que
-
 x = x + y;
-```
-
-## Subtração
-
-```javascript
-x -= y;
 
 // Mesmo que
 
+x += y;
+```
+
+## Subtração `-`
+
+```javascript
 x = x - y;
-```
-
-## Multiplicação
-
-```javascript
-x *= y;
 
 // Mesmo que
 
+x -= y;
+```
+
+## Multiplicação `*`
+
+```javascript
 x = x * y;
-```
-
-## Atribuição de Divisão
-
-```javascript
-x /= y;
 
 // Mesmo que
 
-x = x / y;
+x *= y;
 ```
 
-## Resto
+## Divisão `\`
+
+```javascript
+x = x / y;
+
+// Mesmo que
+
+x /= y;
+```
+
+## Resto `%`
 
 Retorna o inteiro restante da divisão dos dois operandos.
 
 ```javascript
+x = x % y;
+
+// Mesmo que
 
 x %= y;
 
-// Mesmo que
-
-x = x % y;
-
 ```
 
-## Exponecial
+## Exponecial `**`
 
 ```javascript
-x **= y;
+x = x ** y;
 
 // Mesmo que
 
-x = x ** y;
+x **= y;
 ```
 
-## Incremento 
+## Incremento `++`
 
 Adiciona um ao seu operando. Se usado como operador prefixado (`++x`), retorna o valor de seu operando após a adição. Se usado como operador pósfixado (`x++`), retorna o valor de seu operando antes da adição.
 
