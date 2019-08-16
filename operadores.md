@@ -226,6 +226,13 @@ var ehMenorIgual = var1 <= var2;
 document.write(ehMenorIgual);
 ```
 
+## Condicional Ternário
+
+O operador condicional é o único operador JavaScript que utiliza três operandos. O operador pode ter um de dois valores baseados em uma condição. A sintaxe é:
+
+```javascript
+var status = (idade >= 18) ? "adulto" : "menor de idade";
+```
 
 # Exercícios
 
