@@ -78,13 +78,12 @@ x = x ** y;
 Retorna verdadeiro caso os **operandos sejam iguais**.
 
 ```javascript
-var var1 = 3;
 var ehIgual;
 
-ehIgual = 3 == var1;
+ehIgual = 3 == 3;
 document.write(ehIgual);
 
-ehIgual = "3" == var1;
+ehIgual = "3" == 3;
 document.write(ehIgual);
 
 ehIgual = 3 == '3';
@@ -96,13 +95,12 @@ document.write(ehIgual);
 Retorna verdadeiro caso os **operandos não sejam iguais**.
 
 ```javascript
-var var1 = 1;
 var ehIgual;
 
-ehIgual = var1 != 4;
+ehIgual = 1 != 4;
 document.write(ehIgual);
 
-ehIgual = var2 != "3";
+ehIgual = 1 != "3";
 document.write(ehIgual);
 ```
 
@@ -111,15 +109,24 @@ document.write(ehIgual);
 Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo.
 
 ```javascript
-var var1 = 3;
-var ehIgual;
-
-ehIgual = 3 === var1;
+var ehIgual = 3 === 3;
 document.write(ehIgual);
 ```
 
-
 ## Estritamente não Igual
+
+```javascript
+var ehIgual;
+
+ehIgual = 3 === 3;
+document.write(ehIgual);
+
+ehIgual = "3" === 3;
+document.write(ehIgual);
+
+ehIgual = 3 === '3';
+document.write(ehIgual);
+```
 
 ## Maior que 
 
