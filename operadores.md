@@ -234,6 +234,10 @@ O operador condicional é o único operador JavaScript que utiliza três operand
 var status = (idade >= 18) ? "adulto" : "menor de idade";
 ```
 
+## Tabela de precedência de Operadores
+
+[Veja aqui](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table)
+
 # Exercícios
 
 1. Ler um valor e escrever a mensagem É MAIOR QUE 10! se o valor lido for maior que 10, caso contrário escrever NÃO É MAIOR QUE 10! 
@@ -241,3 +245,7 @@ var status = (idade >= 18) ? "adulto" : "menor de idade";
 3. As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra.
 4. Ler as notas da 1a. e 2a. avaliações de um aluno. Calcular a média aritmética simples e escrever uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 6 o aluno é aprovado). Escrever também a média calculada. 
 5. Ler dois valores (considere que não serão lidos valores iguais) e escrever o maior deles.
+
+
+#### Referências
+...
