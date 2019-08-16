@@ -3,6 +3,48 @@
 
 Esta seção descreve os operadores e contém informações sobre precedência de operadores.
 
+# Lógicos
+
+## AND `&&`
+
+[Outros exemplos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operadores_Logicos#Logical_AND_.28.29)
+
+```javascript
+var var1 = false;
+var var2 = true;
+
+document.write(var1 && var2);
+document.write(var2 && var1);
+document.write(var1 && var1);
+document.write(var2 && var2);
+```
+
+## OR `||`
+
+[Outros exemplos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operadores_Logicos#OR_L%C3%B3gico_())
+
+```javascript
+var var1 = false;
+var var2 = true;
+
+document.write(var1 || var2);
+document.write(var2 || var1);
+document.write(var1 || var1);
+document.write(var2 || var2);
+```
+
+## NOT `!`
+
+Inverte o valor da variável. [Outros exemplos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operadores_Logicos#Logical_NOT_.28.21.29)
+
+```javascript
+var var1 = false;
+var var2 = true;
+
+document.write(!var1);
+document.write(!var2);
+```
+
 ## Atribuição `=`
 
 ```javascript
