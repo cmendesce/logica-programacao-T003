@@ -241,6 +241,12 @@ var status = (idade >= 18) ? "adulto" : "menor de idade";
 # Exercícios
 
 1. Ler um valor e escrever a mensagem É MAIOR QUE 10! se o valor lido for maior que 10, caso contrário escrever NÃO É MAIOR QUE 10! 
+```javascript
+var valor = prompt("Informe um valor");
+valor = parseFloat(valor);
+var ehMaior = (valor > 10) ? "valor maior que 10" : "valor menor que 10";
+document.write(ehMaior);
+```
 2. Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo).
 3. As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra.
 4. Ler as notas da 1a. e 2a. avaliações de um aluno. Calcular a média aritmética simples e escrever uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 6 o aluno é aprovado). Escrever também a média calculada. 
