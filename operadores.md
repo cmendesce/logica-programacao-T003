@@ -260,9 +260,27 @@ var status = (idade >= 18) ? "adulto" : "menor de idade";
 ```
 
 3. As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra.
-4. Ler as notas da 1a. e 2a. avaliações de um aluno. Calcular a média aritmética simples e escrever uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 6 o aluno é aprovado). Escrever também a média calculada. 
-5. Ler dois valores (considere que não serão lidos valores iguais) e escrever o maior deles.
+```html
+<script>
+</script>
+```
 
+
+4. Ler as notas da 1a. e 2a. avaliações de um aluno. Calcular a média aritmética simples e escrever uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 6 o aluno é aprovado). Escrever também a média calculada. 
+```html
+<script>
+</script>
+```
+
+5. Ler dois valores (considere que não serão lidos valores iguais) e escrever o maior deles.
+```html
+<script>
+  var valor1 = parseFloat(prompt("Informe um valor"));
+  var valor2 = parseFloat(prompt("Informe um valor"));
+  var maior = (valor1 > valor2) ? valor1 : valor2;
+  document.write("O maior é: " + maior);
+</script>
+```
 
 #### Referências
 ...
