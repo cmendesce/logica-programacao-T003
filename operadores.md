@@ -269,6 +269,11 @@ var status = (idade >= 18) ? "adulto" : "menor de idade";
 4. Ler as notas da 1a. e 2a. avaliações de um aluno. Calcular a média aritmética simples e escrever uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 6 o aluno é aprovado). Escrever também a média calculada. 
 ```html
 <script>
+  var nota1 = parseFloat(prompt("Informe primeira nota"));
+  var nota2 = parseFloat(prompt("Informe segunda nota"));
+  var media = (nota1+nota2)/2;
+  var passou = (media >= 6) ? "passou" : "não passou";
+  document.write("O aluno " + passou);
 </script>
 ```
 
